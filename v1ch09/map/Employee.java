@@ -10,7 +10,7 @@ public class Employee
 
    /**
     * Constructs an employee with $0 salary.
-    * @param n the employee name
+    * @param name the employee name
     */
    public Employee(String name)
    {
@@ -18,6 +18,7 @@ public class Employee
       salary = 0;
    }
 
+   @Override
    public String toString()
    {
       return "[name=" + name + ", salary=" + salary + "]";
